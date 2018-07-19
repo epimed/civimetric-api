@@ -1,0 +1,16 @@
+# MONGODB
+spring.data.mongodb.host=XXX
+spring.data.mongodb.port=XXX
+spring.data.mongodb.database=XXX
+
+# SPRING BANNER
+spring.main.banner-mode=off
+
+# PRETTY JSON
+spring.jackson.serialization.INDENT_OUTPUT=true
+
+# LOGGING
+logging.level.root=WARN
+logging.level.org.springframework.data=INFO
+logging.level.civimetric_api=DEBUG
+logging.pattern.console=%d{dd/MM/yy HH:mm} %clr(%5p) %clr(%logger{10}){cyan} - %msg%n
